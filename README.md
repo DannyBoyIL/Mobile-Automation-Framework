@@ -1,4 +1,4 @@
-# Mobile Automation Framework (Java · Appium · TestNG · Cucumber)
+# Mobile Automation Framework (Java · Appium · TestNG · Cucumber) 
 A portfolio-style mobile automation framework demonstrating production-grade structure, reporting, and stability patterns using a **realistic login flow** with multiple outcomes.
 
 This project serves as a comprehensive example of a modern mobile automation framework. It demonstrates a full end-to-end implementation of best practices used in professional QA automation.
