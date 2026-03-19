@@ -198,6 +198,14 @@ Parallel execution uses the `mobile-parallel` Maven profile, which runs the suit
 
 Before running in parallel, start one Appium server per device. The current parallel setup expects multiple servers on ports `10000`, `10001`, `10002`.
 
+#### iOS Simulator UDIDs (Parallel)
+Each iOS `<test>` block in `src/test/resources/testng-mobile-parallel.xml` must use a **real simulator UDID** from your machine.
+Get available simulator UDIDs with:
+```bash
+xcrun simctl list devices
+```
+Match the **runtime version** to `src/test/resources/config/ios.json` (`platformVersion`), then copy the UDIDs into the TestNG file.
+
 Example (3 servers):
 ```bash
 appium --port 10000 &

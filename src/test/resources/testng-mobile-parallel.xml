@@ -20,7 +20,7 @@
     <!-- IOS DEVICE 1 -->
     <test name="iPhone 16e">
         <parameter name="platform" value="ios"/>
-        <parameter name="udid" value="D8BFDD68-051C-4AFF-92CC-815F9E679D03"/>
+        <parameter name="udid" value="4595B892-F20A-4471-A44C-48F1D90D4008"/>
         <parameter name="wdaLocalPort" value="8100"/>
         <parameter name="appiumPort" value="10001"/>
 
@@ -32,7 +32,7 @@
     <!-- IOS DEVICE 2 -->
     <test name="iPhone 17">
         <parameter name="platform" value="ios"/>
-        <parameter name="udid" value="9C39B053-DAB4-47D3-8B40-1761557A9083"/>
+        <parameter name="udid" value="86ACDF00-9AF0-4A80-A84C-8D75F7D5BEC0"/>
         <parameter name="wdaLocalPort" value="8101"/>
         <parameter name="appiumPort" value="10002"/>
         <classes>
