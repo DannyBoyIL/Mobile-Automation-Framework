@@ -30,12 +30,10 @@ public class LoginPage extends BasePage {
         logger.info("Entering credentials");
 
         if (username != null && !username.isEmpty()) {
-            clear(usernameField);
             type(usernameField, username);
         }
 
         if (password != null && !password.isEmpty()) {
-            clear(passwordField);
             type(passwordField, password);
         }
 

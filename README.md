@@ -12,7 +12,7 @@ The result is a compact suite that still exercises synchronization, page flows, 
 
 ## Highlights
 * **Page Object Model + flow orchestration** for clean separation of concerns, and maintainable test architecture.
-* **Behaviour-Driven Development (BDD) with Cucumber** for readable, business-readable scenarios.
+* **Behavior-Driven Development (BDD) with Cucumber** for readable, business-readable scenarios.
 * **TestNG orchestration** with extensible runners.
 * **CI/CD integration** for automated test execution in pipelines for iOS (macOS) and Android (Linux).
 * **Allure reporting** for clear test insights.

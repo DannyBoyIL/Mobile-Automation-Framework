@@ -14,8 +14,8 @@ import java.net.URL;
 
 public class DriverFactory {
 
-    // TODO remove or change for the parallel jobs
-    private static final String APPIUM_URL = "http://localhost:4723";
+    private static final String APPIUM_URL =
+            System.getProperty("appium.url", "http://localhost:4723");
 
     public static AppiumDriver createDriver() {
         Platform platform = Platform.fromString(System.getProperty("platform"));

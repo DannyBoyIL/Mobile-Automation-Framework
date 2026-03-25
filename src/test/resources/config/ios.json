@@ -1,13 +1,8 @@
 {
     "platformName": "iOS",
     "automationName": "XCUITest",
-    "deviceName": "iPhone 16e",
+    "deviceName": "iPhone 17",
     "platformVersion": "26.1",
     "app": "/apps/ios/TheApp.app.zip",
     "bundleId": "com.appiumpro.the_app"
 }
-
-//⚠️ Known issue:
-//Login fails on iPhone 17 Pro simulator due to simulator instability.
-//Use iPhone 15 for automated runs.
-//On test suite, the typeing direction flips (RTL) and causes invaid user credential which resolves is an invalid user.
